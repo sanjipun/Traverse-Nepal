@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import { StylesProvider } from '@material-ui/core';
+import Destination from './Components/Destinations/Destination';
+import Landing from './Components/Landing/Landing';
+import NavBarPro from './Components/Navbar/NavBarPro';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<StylesProvider injectFirst>
+			<div className='App' style={{ fontFamily: 'Lato' }}>
+				<NavBarPro />
+				<Landing />
+				<Destination />
+			</div>
+		</StylesProvider>
+	);
 }
 
 export default App;

@@ -60,6 +60,7 @@ const BarItemsActive = styled.ul`
 const Li = styled.li`
 	padding: 30px;
 	color: #455a64;
+	font-size: 15px;
 	&:hover {
 		color: white;
 		background-color: black;

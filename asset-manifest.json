@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/Traverse-Nepal/static/js/main.aaa5850c.chunk.js",
-    "main.js.map": "/Traverse-Nepal/static/js/main.aaa5850c.chunk.js.map",
-    "runtime-main.js": "/Traverse-Nepal/static/js/runtime-main.9398be19.js",
-    "runtime-main.js.map": "/Traverse-Nepal/static/js/runtime-main.9398be19.js.map",
-    "static/js/2.f3d7292d.chunk.js": "/Traverse-Nepal/static/js/2.f3d7292d.chunk.js",
-    "static/js/2.f3d7292d.chunk.js.map": "/Traverse-Nepal/static/js/2.f3d7292d.chunk.js.map",
-    "static/js/3.2a02b18d.chunk.js": "/Traverse-Nepal/static/js/3.2a02b18d.chunk.js",
-    "static/js/3.2a02b18d.chunk.js.map": "/Traverse-Nepal/static/js/3.2a02b18d.chunk.js.map",
+    "main.js": "/Traverse-Nepal/static/js/main.67dc22ae.chunk.js",
+    "main.js.map": "/Traverse-Nepal/static/js/main.67dc22ae.chunk.js.map",
+    "runtime-main.js": "/Traverse-Nepal/static/js/runtime-main.1e42a2a0.js",
+    "runtime-main.js.map": "/Traverse-Nepal/static/js/runtime-main.1e42a2a0.js.map",
+    "static/js/2.af65b8fe.chunk.js": "/Traverse-Nepal/static/js/2.af65b8fe.chunk.js",
+    "static/js/2.af65b8fe.chunk.js.map": "/Traverse-Nepal/static/js/2.af65b8fe.chunk.js.map",
+    "static/js/3.3564cd20.chunk.js": "/Traverse-Nepal/static/js/3.3564cd20.chunk.js",
+    "static/js/3.3564cd20.chunk.js.map": "/Traverse-Nepal/static/js/3.3564cd20.chunk.js.map",
     "index.html": "/Traverse-Nepal/index.html",
-    "static/js/2.f3d7292d.chunk.js.LICENSE.txt": "/Traverse-Nepal/static/js/2.f3d7292d.chunk.js.LICENSE.txt",
+    "static/js/2.af65b8fe.chunk.js.LICENSE.txt": "/Traverse-Nepal/static/js/2.af65b8fe.chunk.js.LICENSE.txt",
     "static/media/ABC.10c21443.jpg": "/Traverse-Nepal/static/media/ABC.10c21443.jpg",
     "static/media/EBC.11264425.jpg": "/Traverse-Nepal/static/media/EBC.11264425.jpg",
     "static/media/Manang.bd75a094.jpg": "/Traverse-Nepal/static/media/Manang.bd75a094.jpg",
@@ -20,8 +20,8 @@
     "static/media/tilicho.ec85bfe7.jpg": "/Traverse-Nepal/static/media/tilicho.ec85bfe7.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9398be19.js",
-    "static/js/2.f3d7292d.chunk.js",
-    "static/js/main.aaa5850c.chunk.js"
+    "static/js/runtime-main.1e42a2a0.js",
+    "static/js/2.af65b8fe.chunk.js",
+    "static/js/main.67dc22ae.chunk.js"
   ]
 }

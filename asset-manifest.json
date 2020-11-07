@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.js": "/Traverse-Nepal/static/js/main.aaa5850c.chunk.js",
+    "main.js.map": "/Traverse-Nepal/static/js/main.aaa5850c.chunk.js.map",
+    "runtime-main.js": "/Traverse-Nepal/static/js/runtime-main.9398be19.js",
+    "runtime-main.js.map": "/Traverse-Nepal/static/js/runtime-main.9398be19.js.map",
+    "static/js/2.f3d7292d.chunk.js": "/Traverse-Nepal/static/js/2.f3d7292d.chunk.js",
+    "static/js/2.f3d7292d.chunk.js.map": "/Traverse-Nepal/static/js/2.f3d7292d.chunk.js.map",
+    "static/js/3.2a02b18d.chunk.js": "/Traverse-Nepal/static/js/3.2a02b18d.chunk.js",
+    "static/js/3.2a02b18d.chunk.js.map": "/Traverse-Nepal/static/js/3.2a02b18d.chunk.js.map",
+    "index.html": "/Traverse-Nepal/index.html",
+    "static/js/2.f3d7292d.chunk.js.LICENSE.txt": "/Traverse-Nepal/static/js/2.f3d7292d.chunk.js.LICENSE.txt",
+    "static/media/ABC.10c21443.jpg": "/Traverse-Nepal/static/media/ABC.10c21443.jpg",
+    "static/media/EBC.11264425.jpg": "/Traverse-Nepal/static/media/EBC.11264425.jpg",
+    "static/media/Manang.bd75a094.jpg": "/Traverse-Nepal/static/media/Manang.bd75a094.jpg",
+    "static/media/Namche.407a64a2.jpg": "/Traverse-Nepal/static/media/Namche.407a64a2.jpg",
+    "static/media/PoohHill.1fabf59c.jpg": "/Traverse-Nepal/static/media/PoohHill.1fabf59c.jpg",
+    "static/media/bgbysimon.ff7a3d37.jpg": "/Traverse-Nepal/static/media/bgbysimon.ff7a3d37.jpg",
+    "static/media/boudha.15a02f7b.jpg": "/Traverse-Nepal/static/media/boudha.15a02f7b.jpg",
+    "static/media/tilicho.ec85bfe7.jpg": "/Traverse-Nepal/static/media/tilicho.ec85bfe7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9398be19.js",
+    "static/js/2.f3d7292d.chunk.js",
+    "static/js/main.aaa5850c.chunk.js"
+  ]
+}

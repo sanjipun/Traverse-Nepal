@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/Traverse-Nepal/static/js/main.67dc22ae.chunk.js",
-    "main.js.map": "/Traverse-Nepal/static/js/main.67dc22ae.chunk.js.map",
+    "main.js": "/Traverse-Nepal/static/js/main.7e6e8f59.chunk.js",
+    "main.js.map": "/Traverse-Nepal/static/js/main.7e6e8f59.chunk.js.map",
     "runtime-main.js": "/Traverse-Nepal/static/js/runtime-main.1e42a2a0.js",
     "runtime-main.js.map": "/Traverse-Nepal/static/js/runtime-main.1e42a2a0.js.map",
     "static/js/2.af65b8fe.chunk.js": "/Traverse-Nepal/static/js/2.af65b8fe.chunk.js",
@@ -22,6 +22,6 @@
   "entrypoints": [
     "static/js/runtime-main.1e42a2a0.js",
     "static/js/2.af65b8fe.chunk.js",
-    "static/js/main.67dc22ae.chunk.js"
+    "static/js/main.7e6e8f59.chunk.js"
   ]
 }

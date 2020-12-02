@@ -34,12 +34,12 @@ const ButtonDiv = styled.div`
 		display: block;
 	}
 `;
-
+const H1 = styled.h1`@media (max-width: 960px) {margin-top: 150px;}`;
 const Landing = () => {
 	return (
 		<StyledDiv>
 			<div style={{ display: 'block', textAlign: 'center' }}>
-				<h1>Visit Nepal 2024</h1>
+				<H1>Visit Nepal 2024</H1>
 				<ButtonDiv>
 					<PrimaryButton variant='outlined' primary>
 						CHECK HOTELS

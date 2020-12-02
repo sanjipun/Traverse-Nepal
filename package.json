@@ -1,5 +1,5 @@
 {
-  "homepage":"http://sanjipun.github.io/Traverse-Nepal",
+  "homepage": "http://sanjipun.github.io/Traverse-Nepal",
   "name": "trekhimalaya",
   "version": "0.1.0",
   "private": true,
@@ -12,6 +12,7 @@
     "react-animations": "^1.0.0",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.0",
+    "react-waypoint": "^9.0.3",
     "styled-components": "^5.2.1",
     "web-vitals": "^0.2.4"
   },
@@ -21,7 +22,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-"deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

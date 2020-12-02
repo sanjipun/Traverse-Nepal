@@ -2,10 +2,12 @@ import React, { useState } from 'react';
 import styled, { keyframes } from 'styled-components';
 import { MenuItems } from './MenuItems';
 import { slideInRight } from 'react-animations';
+import { Waypoint } from 'react-waypoint';
 
 const NavWrapper = styled.div`
 	overflow: hidden;
-	background-color: white;
+	background-color: ${(props) => (props.bgColor === true ? '#424242' : 'white')};
+	transition: all 2s ease;
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -59,8 +61,9 @@ const BarItemsActive = styled.ul`
 
 const Li = styled.li`
 	padding: 30px;
-	color: #455a64;
-	font-size: 15px;
+	color: ${(props) => (props.bgColor === true ? 'white' : '#455a64')};
+	transition: all 2s ease;
+	font-size: 18px;
 	&:hover {
 		color: white;
 		background-color: black;
@@ -82,23 +85,35 @@ const StyledLi = styled.li`
 	}
 `;
 
+const StyledDiv = styled.div`
+	cursor: pointer;
+	font-size: 30px;
+	color: ${(props) => (props.bgColor === true ? 'white' : '#455a64')};
+	transition: all 2s ease;
+`;
+
 const NavBarPro = () => {
 	const [ click, setClick ] = useState(false);
+	const [ bgColor, setBgColor ] = useState(false);
 
 	const handleClick = () => {
 		setClick(!click);
 	};
 	return (
 		<div style={{ boxShadow: '0px 1px 10px 0px #888888' }}>
-			<NavWrapper>
-				<div clasName='logo' style={{ cursor: 'pointer', fontSize: '30px', color: '#455a64' }}>
+			<NavWrapper bgColor={bgColor}>
+				<StyledDiv clasName='logo' bgColor={bgColor}>
 					Traverse Nepal
 					<i class='fas fa-suitcase-rolling' style={{ marginLeft: 10 }} />
-				</div>
+				</StyledDiv>
 				<div className='nav-items'>
 					<Ul>
 						{MenuItems.map((item, index) => {
-							return <Li key={index}>{item.title}</Li>;
+							return (
+								<Li key={index} bgColor={bgColor}>
+									{item.title}
+								</Li>
+							);
 						})}
 					</Ul>
 				</div>
@@ -115,8 +130,32 @@ const NavBarPro = () => {
 			) : (
 				''
 			)}
+			<Waypoint onEnter={() => setBgColor(false)} onLeave={() => setBgColor(true)} />
 		</div>
 	);
 };
 
 export default NavBarPro;
+
+// BUTTON CLICK HANDLER ALTERNATE WAY
+//render() {
+//    return (
+//      <Transition>
+//        <StyledNavbar className={this.state.show ? "active" : "hidden"}>
+//		...
+//		</StyledNavbar>
+//      </Transition>
+//    );
+//  }
+
+//const Transition = styled.div`
+//  .active {
+//    visibility: visible;
+//    transition: all 200ms ease-in;
+//  }
+//  .hidden {
+//    visibility: hidden;
+//    transition: all 200ms ease-out;
+//    transform: translate(0, -100%);
+//  }
+//`;
